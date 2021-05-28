@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample;
+package com.spring.session.example.springsessionexample.config;
 
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.PropertyFilter;
@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @ControllerAdvice
 public class DynamicJsonResponseAdvice extends AbstractMappingJacksonResponseBodyAdvice {
+
     private static final String INCLUSION_FILTER = "inclusion";
     private static final String WEB_PARAM_NAME = "include";
     private static final String DELI = ",";

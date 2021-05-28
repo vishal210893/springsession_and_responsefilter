@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample;
+package com.spring.session.example.springsessionexample.controller;
 
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;

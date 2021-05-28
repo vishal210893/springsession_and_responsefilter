@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample;
+package com.spring.session.example.springsessionexample.controller;
 
 import com.spring.session.example.springsessionexample.entity.CommonMacList;
 import com.spring.session.example.springsessionexample.entity.ContractData;

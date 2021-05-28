@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample.config;
+package com.spring.session.example.config;
 
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.PropertyFilter;

@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample;
+package com.spring.session.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,9 +1,9 @@
-package com.spring.session.example.springsessionexample.controller;
+package com.spring.session.example.controller;
 
-import com.spring.session.example.springsessionexample.entity.CommonMacList;
-import com.spring.session.example.springsessionexample.entity.ContractData;
-import com.spring.session.example.springsessionexample.entity.LedInfo;
-import com.spring.session.example.springsessionexample.entity.Novel;
+import com.spring.session.example.entity.CommonMacList;
+import com.spring.session.example.entity.ContractData;
+import com.spring.session.example.entity.LedInfo;
+import com.spring.session.example.entity.Novel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

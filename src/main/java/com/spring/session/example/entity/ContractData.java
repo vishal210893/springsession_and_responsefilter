@@ -1,4 +1,4 @@
-package com.spring.session.example.springsessionexample.entity;
+package com.spring.session.example.entity;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import lombok.Getter;

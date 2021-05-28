@@ -40,13 +40,14 @@ public class DynamicJsonResponseAdvice extends AbstractMappingJacksonResponseBod
     }
 
     private FilterProvider configFilters(String[] attrs) {
+        PropertyFilter filter;
         if (attrs == null) {
-            PropertyFilter filter = SimpleBeanPropertyFilter.serializeAllExcept(EMPTY);
-            return new SimpleFilterProvider().addFilter(INCLUSION_FILTER, filter);
+            filter = SimpleBeanPropertyFilter.serializeAllExcept(EMPTY);
         } else {
-            PropertyFilter filter = SimpleBeanPropertyFilter.filterOutAllExcept(attrs);
-            return new SimpleFilterProvider().addFilter(INCLUSION_FILTER, filter);
+            filter = SimpleBeanPropertyFilter.filterOutAllExcept(attrs);
         }
+        return new SimpleFilterProvider().addFilter(INCLUSION_FILTER, filter);
+
     }
 
 }
